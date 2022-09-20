@@ -32,7 +32,7 @@ async def start(client, message):
                 InlineKeyboardButton("❔ HOW TO USE ME ❔", callback_data="help"),
             ],
             [
-                InlineKeyboardButton("📢 CHANNEL", url=f"https://t.me/{UPDATES_CHANNEL}"),
+                InlineKeyboardButton("📢 CHANNEL", url=f"https://t.me/GKP_Movie_Corner"),
                 InlineKeyboardButton("SOURCE 📦", url=f"https://github.com/AsmSafone/VideoPlayerBot"),
             ],
             [
@@ -58,7 +58,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [
             [
                 InlineKeyboardButton("🔙 BACK", callback_data="start"),
-                InlineKeyboardButton ("SUPPORT 💬", url=f"https://t.me/{SUPPORT_GROUP}"),
+                InlineKeyboardButton ("SUPPORT 💬", url=f"https://t.me/GKP_Movie_Request_2022"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -74,7 +74,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [
             [
                 InlineKeyboardButton("🔙 BACK", callback_data="start"),
-                InlineKeyboardButton ("SUPPORT 💬", url=f"https://t.me/{SUPPORT_GROUP}"),
+                InlineKeyboardButton ("SUPPORT 💬", url=f"https://t.me/GKP_Movie_Request_2022"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -92,7 +92,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton("❔ HOW TO USE ME ❔", callback_data="help"),
             ],
             [
-                InlineKeyboardButton("📢 CHANNEL", url=f"https://t.me/{UPDATES_CHANNEL}"),
+                InlineKeyboardButton("📢 CHANNEL", url=f"https://t.me/GKP_Movie_Corner"),
                 InlineKeyboardButton("SOURCE 📦", url=f"https://github.com/AsmSafone/VideoPlayerBot"),
             ],
             [
